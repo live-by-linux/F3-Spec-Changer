@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "customizable-pc-parts",
+	"version": "${version}",
+	"name": "F3 Spec Changer",
+	"description": "Customize the hardware information displayed in the F3 menu.",
+	"authors": [
+		"human-on-earth"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/customizable-pc-parts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"customizablepcparts.modid.CustomizablePcParts"
+		],
+		"client": [
+			"customizablepcparts.modid.client.CustomizablePcPartsClient"
+		]
+	},
+	"mixins": [
+		"customizable-pc-parts.mixins.json",
+		{
+			"config": "customizable-pc-parts.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
