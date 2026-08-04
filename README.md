@@ -35,6 +35,7 @@ Instead of displaying your actual hardware information, you can replace the disp
 * Minecraft: 26.1.2
 * Fabric Loader
 * Fabric API
+* Gradle & Gradlew
 
 ## Current Limitations
 
@@ -62,4 +63,4 @@ This project is built using:
 
 ## License
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for more information.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
