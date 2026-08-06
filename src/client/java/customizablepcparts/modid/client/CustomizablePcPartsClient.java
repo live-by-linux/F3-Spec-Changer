@@ -6,7 +6,8 @@ public class CustomizablePcPartsClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		ConfigManager.load();
 		SpecCommands.register();
-	}
 
+	}
 }
