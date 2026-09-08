@@ -26,4 +26,5 @@ This mod is designed to modify the vanilla F3 debug screen. Because of this, it 
 
 ## Quick notes
 mod is also on curseforge under this [link](https://www.curseforge.com/minecraft/mc-mods/f3-spec-changer)
+
 This mod is also on modrinth under this [link](https://www.curseforge.com/minecraft/mc-mods/f3-spec-changer)
