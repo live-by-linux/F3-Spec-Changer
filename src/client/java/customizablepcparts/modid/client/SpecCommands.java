@@ -21,6 +21,8 @@ public class SpecCommands {
                                         CustomSpecs.CPU =
                                                 StringArgumentType.getString(context, "cpu");
 
+                                        ConfigManager.save();
+
                                         context.getSource().sendFeedback(
                                                 Component.literal("CPU changed to: " + CustomSpecs.CPU)
                                         );
@@ -36,6 +38,8 @@ public class SpecCommands {
 
                                         CustomSpecs.GPU =
                                                 StringArgumentType.getString(context, "gpu");
+
+                                        ConfigManager.save();
 
                                         context.getSource().sendFeedback(
                                                 Component.literal("GPU changed to: " + CustomSpecs.GPU)
@@ -53,6 +57,8 @@ public class SpecCommands {
                                         CustomSpecs.DISPLAY =
                                                 StringArgumentType.getString(context, "display");
 
+                                        ConfigManager.save();
+
                                         context.getSource().sendFeedback(
                                                 Component.literal("Display changed to: " + CustomSpecs.DISPLAY)
                                         );
@@ -68,6 +74,8 @@ public class SpecCommands {
 
                                         CustomSpecs.DRIVER =
                                                 StringArgumentType.getString(context, "driver");
+
+                                        ConfigManager.save();
 
                                         context.getSource().sendFeedback(
                                                 Component.literal("Driver changed to: " + CustomSpecs.DRIVER)
